@@ -1,4 +1,4 @@
-# Sonic-Pad-Adaptic-Meshing-Setup
+# Sonic-Pad-Adaptive-Meshing-Setup
 #---------------------------------------------------------------------------
 #This line of coding will go into your printer.cfg under the macros section.
 #---------------------------------------------------------------------------
