@@ -1,8 +1,6 @@
 # Sonic-Pad-Adaptive-Meshing-Setup
-#---------------------------------------------------------------------------
-#This line of coding will go into your printer.cfg under the macros section.
-#---------------------------------------------------------------------------
 
+#This line of coding will go into your printer.cfg under the macros section.
 
 
 [gcode_macro PRINT_START]
@@ -190,9 +188,6 @@ gcode:
         BED_MESH_CALIBRATE_BASE
     {% endif %}
     
- #------------------------------------------------------------------------------------
- #------------------------------------------------------------------------------------
- #------------------------------------------------------------------------------------
  
 #Starting GCODE in my Slicer (Orca Slicer) But is the same in every one 
  
@@ -202,8 +197,7 @@ PRINT_START EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_te
 BED_MESH_CALIBRATE AREA_START={first_layer_print_min[0]},{first_layer_print_min[1]} AREA_END={first_layer_print_max[0]},{first_layer_print_max[1]}
 _PURGE_LINE
  
- 
- #Ending GCODE in my Slicer (Orca Slicer) But is the same in every one
+#Ending GCODE in my Slicer (Orca Slicer) But is the same in every one
  
  PRINT_END
  
