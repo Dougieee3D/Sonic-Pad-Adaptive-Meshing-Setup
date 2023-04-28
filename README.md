@@ -1,1 +1,1 @@
-
+Please Download the Txt File and READ IT do not just skip around its very straight forward and no im not around all the time for questions but leave them and ill get back as soon as i can, Thanks and happy printing!
